@@ -145,9 +145,9 @@ def get_upload_msg(config):
     """
     location = config["Location"]
     if location == "1":
-        upload_msg = NORTH_UPLOAD_MSG
-    elif location == "2":
         upload_msg = SOUTH_UPLOAD_MSG
+    elif location == "2":
+        upload_msg = NORTH_UPLOAD_MSG
     elif location == "3":
         upload_msg = GZ_UPLOAD_MSG
     elif location == "4":
